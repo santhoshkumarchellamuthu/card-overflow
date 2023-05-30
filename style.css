@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.home{
+	width:90%;
+	margin:0 auto;
+}
+.main_container{
+	text-align:center;
+}
+.head{
+	padding-top:30px;
+}
+.head h2{
+	color:#05579e;
+	text-transform:uppercase;
+	padding:10px 0;
+	font-size:25px;
+	font-weight:700;
+}
+.row{
+	display:flex;
+	justify-content:space-between;
+	padding-top:30px;
+}
+.col{
+	width:23%;
+	box-shadow:0px 0px 1px 1px #f8f8f8;
+	margin:5px 10px;
+	border-radius:5px;
+	position:relative;
+	overflow:hidden;
+}
+.buy{
+	font-size:18px;
+	color:#05579e;
+	height:60px;
+	background-color:#f8f8f8;
+	padding-top:10px;
+	font-weight:700;
+	text-transform:capitalize;
+}
+.buy:hover{
+	background-color:#05579e;
+	color:white;
+}
+.content{
+	padding:10px 0;
+}
+.price{
+	padding:10px 0;
+}
+.price sup,span{
+	color:#05579e;
+	font-size:20px;
+	font-weight:600;	
+}
+.content p{
+	padding-top:7px;
+}
+.content del{
+	color:#aebdb2;
+}
+.card-action-btn{
+	height:60px;
+	background-color:#f8f8f8;
+	padding-top:10px;
+}
+.btn{
+	color:white;
+	background-color:#05579e;
+	padding:7px 20px;
+	border-radius:20px;
+	border:none;
+}
+.advance {
+    width: 150px;
+    height: 30px;
+    background-color: blue;
+    padding-top: 5px;
+    position: absolute;
+    right: -40px;
+    top: 19px;
+    transform: rotate(45deg);
+}
+	
+
+	
+	
+	
